@@ -7,19 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF3C3CE82D2699BA002E8BB3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3C3CE72D2699BA002E8BB3 /* opencv2.framework */; };
+		AF3C3CEB2D269A9B002E8BB3 /* scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF3C3CE92D269A9B002E8BB3 /* scanner.cpp */; };
+		AF3C3CF92D26A80E002E8BB3 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CEC2D26A80E002E8BB3 /* 29.png */; };
+		AF3C3CFA2D26A80E002E8BB3 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CED2D26A80E002E8BB3 /* 40.png */; };
+		AF3C3CFB2D26A80E002E8BB3 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CEE2D26A80E002E8BB3 /* 57.png */; };
+		AF3C3CFC2D26A80E002E8BB3 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CEF2D26A80E002E8BB3 /* 58.png */; };
+		AF3C3CFD2D26A80E002E8BB3 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF02D26A80E002E8BB3 /* 60.png */; };
+		AF3C3CFE2D26A80E002E8BB3 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF12D26A80E002E8BB3 /* 80.png */; };
+		AF3C3CFF2D26A80E002E8BB3 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF22D26A80E002E8BB3 /* 87.png */; };
+		AF3C3D002D26A80E002E8BB3 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF32D26A80E002E8BB3 /* 114.png */; };
+		AF3C3D012D26A80E002E8BB3 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF42D26A80E002E8BB3 /* 120.png */; };
+		AF3C3D022D26A80E002E8BB3 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF52D26A80E002E8BB3 /* 180.png */; };
+		AF3C3D032D26A80E002E8BB3 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF62D26A80E002E8BB3 /* 1024.png */; };
+		AF3C3D042D26A80E002E8BB3 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3C3CF72D26A80E002E8BB3 /* Contents.json */; };
 		AF732C7B2D25C95300223BB1 /* scannieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF732C7A2D25C95300223BB1 /* scannieApp.swift */; };
 		AF732C7D2D25C95300223BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF732C7C2D25C95300223BB1 /* ContentView.swift */; };
 		AF732C7F2D25C95400223BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF732C7E2D25C95400223BB1 /* Assets.xcassets */; };
 		AF732C832D25C95400223BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF732C822D25C95400223BB1 /* Preview Assets.xcassets */; };
+		AF732C8E2D25CCFD00223BB1 /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF732C8D2D25CCFD00223BB1 /* UIImagePickerController.swift */; };
+		AF732C902D25D12500223BB1 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF732C8F2D25D12500223BB1 /* UploadView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AF3C3CE32D269656002E8BB3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AF3C3CE72D2699BA002E8BB3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		AF3C3CE92D269A9B002E8BB3 /* scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanner.cpp; sourceTree = "<group>"; };
+		AF3C3CEA2D269A9B002E8BB3 /* scannie-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "scannie-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF3C3CEC2D26A80E002E8BB3 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		AF3C3CED2D26A80E002E8BB3 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		AF3C3CEE2D26A80E002E8BB3 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		AF3C3CEF2D26A80E002E8BB3 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		AF3C3CF02D26A80E002E8BB3 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		AF3C3CF12D26A80E002E8BB3 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		AF3C3CF22D26A80E002E8BB3 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		AF3C3CF32D26A80E002E8BB3 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		AF3C3CF42D26A80E002E8BB3 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		AF3C3CF52D26A80E002E8BB3 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		AF3C3CF62D26A80E002E8BB3 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		AF3C3CF72D26A80E002E8BB3 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		AF732C772D25C95300223BB1 /* scannie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scannie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF732C7A2D25C95300223BB1 /* scannieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scannieApp.swift; sourceTree = "<group>"; };
 		AF732C7C2D25C95300223BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF732C7E2D25C95400223BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF732C802D25C95400223BB1 /* scannie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scannie.entitlements; sourceTree = "<group>"; };
 		AF732C822D25C95400223BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF732C8D2D25CCFD00223BB1 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
+		AF732C8F2D25D12500223BB1 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		AF732C912D25E0B000223BB1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,15 +74,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3C3CE82D2699BA002E8BB3 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF3C3CF82D26A80E002E8BB3 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C3CEC2D26A80E002E8BB3 /* 29.png */,
+				AF3C3CED2D26A80E002E8BB3 /* 40.png */,
+				AF3C3CEE2D26A80E002E8BB3 /* 57.png */,
+				AF3C3CEF2D26A80E002E8BB3 /* 58.png */,
+				AF3C3CF02D26A80E002E8BB3 /* 60.png */,
+				AF3C3CF12D26A80E002E8BB3 /* 80.png */,
+				AF3C3CF22D26A80E002E8BB3 /* 87.png */,
+				AF3C3CF32D26A80E002E8BB3 /* 114.png */,
+				AF3C3CF42D26A80E002E8BB3 /* 120.png */,
+				AF3C3CF52D26A80E002E8BB3 /* 180.png */,
+				AF3C3CF62D26A80E002E8BB3 /* 1024.png */,
+				AF3C3CF72D26A80E002E8BB3 /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		AF732C6E2D25C95300223BB1 = {
 			isa = PBXGroup;
 			children = (
+				AF3C3CE72D2699BA002E8BB3 /* opencv2.framework */,
 				AF732C792D25C95300223BB1 /* scannie */,
 				AF732C782D25C95300223BB1 /* Products */,
 			);
@@ -53,10 +121,16 @@
 			isa = PBXGroup;
 			children = (
 				AF732C7A2D25C95300223BB1 /* scannieApp.swift */,
+				AF732C8F2D25D12500223BB1 /* UploadView.swift */,
 				AF732C7C2D25C95300223BB1 /* ContentView.swift */,
+				AF732C8D2D25CCFD00223BB1 /* UIImagePickerController.swift */,
 				AF732C7E2D25C95400223BB1 /* Assets.xcassets */,
 				AF732C802D25C95400223BB1 /* scannie.entitlements */,
 				AF732C812D25C95400223BB1 /* Preview Content */,
+				AF732C912D25E0B000223BB1 /* PrivacyInfo.xcprivacy */,
+				AF3C3CE92D269A9B002E8BB3 /* scanner.cpp */,
+				AF3C3CEA2D269A9B002E8BB3 /* scannie-Bridging-Header.h */,
+				AF3C3CF82D26A80E002E8BB3 /* AppIcon.appiconset */,
 			);
 			path = scannie;
 			sourceTree = "<group>";
@@ -79,6 +153,7 @@
 				AF732C732D25C95300223BB1 /* Sources */,
 				AF732C742D25C95300223BB1 /* Frameworks */,
 				AF732C752D25C95300223BB1 /* Resources */,
+				AF3C3CE32D269656002E8BB3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -101,6 +176,7 @@
 				TargetAttributes = {
 					AF732C762D25C95300223BB1 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -127,8 +203,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3C3D002D26A80E002E8BB3 /* 114.png in Resources */,
+				AF3C3D012D26A80E002E8BB3 /* 120.png in Resources */,
+				AF3C3CFB2D26A80E002E8BB3 /* 57.png in Resources */,
+				AF3C3D022D26A80E002E8BB3 /* 180.png in Resources */,
+				AF3C3D032D26A80E002E8BB3 /* 1024.png in Resources */,
+				AF3C3CFE2D26A80E002E8BB3 /* 80.png in Resources */,
+				AF3C3CF92D26A80E002E8BB3 /* 29.png in Resources */,
+				AF3C3CFA2D26A80E002E8BB3 /* 40.png in Resources */,
+				AF3C3CFD2D26A80E002E8BB3 /* 60.png in Resources */,
 				AF732C832D25C95400223BB1 /* Preview Assets.xcassets in Resources */,
+				AF3C3CFC2D26A80E002E8BB3 /* 58.png in Resources */,
 				AF732C7F2D25C95400223BB1 /* Assets.xcassets in Resources */,
+				AF3C3CFF2D26A80E002E8BB3 /* 87.png in Resources */,
+				AF3C3D042D26A80E002E8BB3 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +229,9 @@
 			files = (
 				AF732C7D2D25C95300223BB1 /* ContentView.swift in Sources */,
 				AF732C7B2D25C95300223BB1 /* scannieApp.swift in Sources */,
+				AF732C8E2D25CCFD00223BB1 /* UIImagePickerController.swift in Sources */,
+				AF732C902D25D12500223BB1 /* UploadView.swift in Sources */,
+				AF3C3CEB2D269A9B002E8BB3 /* scanner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +243,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -185,7 +277,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -213,9 +306,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -246,7 +340,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -264,8 +358,12 @@
 		AF732C872D25C95400223BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = scannie/scannie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -273,7 +371,12 @@
 				DEVELOPMENT_TEAM = 835R72QY48;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = opencv2.framework/Headers;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -286,24 +389,35 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = opencv2.framework/Headers;
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = harrysh.scannie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = macosx14.4;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "scannie/scannie-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AF732C882D25C95400223BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				APPLY_RULES_IN_COPY_HEADERS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = scannie/scannie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -311,7 +425,12 @@
 				DEVELOPMENT_TEAM = 835R72QY48;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = opencv2.framework/Headers;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -327,13 +446,17 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c";
 				PRODUCT_BUNDLE_IDENTIFIER = harrysh.scannie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = macosx14.4;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "scannie/scannie-Bridging-Header.h";
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
