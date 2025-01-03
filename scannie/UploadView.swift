@@ -1,5 +1,7 @@
 import SwiftUI
 import UIKit
+import Photos
+
 
 struct UploadView: View {
     @Environment(\.presentationMode) var presentationMode
@@ -17,6 +19,11 @@ struct UploadView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 300, maxHeight: 300)
+                Button("Save to Photo Library") {
+                    saveImageToPhotoLibrary(image: updatedImage)
+                }
+                .padding()
+
             } else {
                 Text("Failed to process image.")
             }
@@ -72,6 +79,16 @@ struct UploadView: View {
         }
 
         self.isLoading = false
+    }
+}
+
+func saveImageToPhotoLibrary(image: UIImage) {
+    PHPhotoLibrary.requestAuthorization { status in
+        if status == .authorized {
+            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        } else {
+            print("Access to photo library is not authorized.")
+        }
     }
 }
 

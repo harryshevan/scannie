@@ -66,7 +66,6 @@
 		AF732C822D25C95400223BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF732C8D2D25CCFD00223BB1 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
 		AF732C8F2D25D12500223BB1 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
-		AF732C912D25E0B000223BB1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +126,6 @@
 				AF732C7E2D25C95400223BB1 /* Assets.xcassets */,
 				AF732C802D25C95400223BB1 /* scannie.entitlements */,
 				AF732C812D25C95400223BB1 /* Preview Content */,
-				AF732C912D25E0B000223BB1 /* PrivacyInfo.xcprivacy */,
 				AF3C3CE92D269A9B002E8BB3 /* scanner.cpp */,
 				AF3C3CEA2D269A9B002E8BB3 /* scannie-Bridging-Header.h */,
 				AF3C3CF82D26A80E002E8BB3 /* AppIcon.appiconset */,
@@ -292,6 +290,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "User selects image from media to process it by app";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "User saves results to their photo library, no 3rd party";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -348,6 +352,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "User selects image from media to process it by app";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "User saves results to their photo library, no 3rd party";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_PREPROCESS = NO;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
